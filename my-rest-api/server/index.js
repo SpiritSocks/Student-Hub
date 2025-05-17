@@ -11,7 +11,7 @@ app.use(cors({
 
 app.get('/api/name', userController.getAllData);
 app.post('/api/login', userController.loginUser);
-app.post('/api/createUser', userController.createUser); //нет использую
+app.post('/api/createUser', userController.createUser); //не использую
 app.patch('/api/name', userController.updateUser); //не использую
 app.delete('/api/name', userController.deleteUser); //
 app.get('/api/courses', userController.getAllCourses);
